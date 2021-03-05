@@ -9,10 +9,10 @@ export default function App() {
     return (
         <Container fluid>
             <Row>
-                <Col lg="2" md="2" sm="6">
+                <Col lg="2" md="2" sm="6" xs="6">
                     <SideBar/>
                 </Col>
-                <Col lg="10" md="10" sm="6">
+                <Col lg="10" md="10" sm="6" xs="6">
                     <BrowserRouter>
                         <Switch>
                             <Route exact path="/" component={Home} />
